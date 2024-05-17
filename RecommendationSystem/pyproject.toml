@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "recommendationsystem"
+version = "0.1.0"
+description = ""
+authors = ["Edwin Hernandez <edwin.hdez@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.4"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
